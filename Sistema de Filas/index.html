@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="static/script/code.js"></script>
+  <title>Fila</title>
+</head>
+
+<body align="center">
+  <header>
+    <h1>Sistema de Filas</h1>
+    <h2>
+      by Matheus Leffa Hilbert
+    </h2>
+  </header>
+
+  <hr>
+  <br>
+
+  <nav>
+    <form name="options">
+      <input id="common" type="button" value="Inserir Fila Comum" onclick="insertCommom()">
+      <input id="priority" type="button" value="Inserir Fila Prioritária" onclick="insertPriority()">
+      <input id="remove" type="button" value="REMOVER" onclick="remove()">
+    </form>
+  </nav>
+
+  <section name="CommonQueue">
+    <h2 id="CommonQueueID">FILA COMUM: []</h2>
+    <h2 id="PriorityQueueID">FILA PRIORITÁRIA: []</h2>
+  </section>
+
+  <br>
+  <hr>
+
+  <article name="regras">
+    <h2>As regras das filas:</h2>
+    <p>
+      • A cada 2 prioritários chamadados, chama-se 1 da fila comum.<br>
+      • Se não houver ninguém em uma fila, chama-se da outra fila.<br>
+      • Se houver elementos nas duas filas no inicio da chamada, a preferencia de chamada é da fila prioritária.
+    </p>
+  </article>
+</body>
+
+</html>
