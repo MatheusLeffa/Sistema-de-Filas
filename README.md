@@ -1,5 +1,7 @@
 # Sistema de Filas
-Um sistema de filas simples, feito totalmente com HTML e JS.  Teste aqui https://jsfiddle.net/cvpoq2ys/
+Um sistema de filas simples, feito totalmente com HTML e JS.
+
+Teste aqui https://jsfiddle.net/cvpoq2ys/
 
 ![Queue](https://github.com/MatheusLeffa/Sistema-de-Filas/blob/main/img/Sistema%20de%20filas.PNG?raw=true)
 
